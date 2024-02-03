@@ -1,0 +1,143 @@
+body {
+  width: 100%;
+  height: 200vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/background2.jpg");
+}
+/* container body */
+body .container {
+  width: 90%;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin-top: 70px;
+  border: 5px solid rgb(134, 134, 134);
+  height: 90%;
+}
+
+/* bagian nama */
+#nama h1 {
+  font-family: "Qwigley", cursive;
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+/* navbar */
+
+#navbar ul li a {
+  margin-right: 30px;
+  padding-bottom: 6px;
+  transition: 400ms;
+  transition: all;
+  padding: 6px;
+}
+#navbar ul a:hover {
+  color: black;
+  transition: 300ms;
+}
+
+#navbar ul {
+  border-top: 1px solid rgb(170, 170, 170);
+  border-bottom: 1px solid rgb(170, 170, 170);
+  padding: 5px 0px 5px 0px;
+}
+
+#navbar h1 {
+  font-family: "Qwigley", cursive;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  padding: 10px 5px 5px 5px;
+  position: absolute;
+  top: 20px;
+  font-size: 20px;
+}
+/* akhir bagian navbar */
+/* bagian gambar home */
+#gambar img {
+  width: 800px;
+}
+.kata {
+  text-transform: capitalize;
+  font-family: Poppins;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.saya {
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+/* footer */
+.footer h6 {
+  text-align: center;
+  border-top: 1px solid rgb(170, 170, 170);
+  border-bottom: 1px solid rgb(170, 170, 170);
+  width: 300px;
+  padding: 20px 0px 20px 0px;
+  color: rgb(95, 95, 95);
+}
+.footer {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  margin-top: 100px;
+}
+
+.footer i {
+  color: rgb(15, 15, 15);
+  margin-left: 9px;
+  transition: all;
+  transition-duration: 700ms;
+  position: relative;
+  top: 2px;
+  font-size: 16px;
+}
+.footer i:hover {
+  color: rgb(107, 107, 107);
+  transition: 400ms;
+}
+
+/* akhir bagian gambar home */
+@media (max-width: 575.98px) {
+  body {
+    height: 125vh;
+  }
+  .collapse {
+    position: relative;
+    top: 30px;
+    border: none;
+    transition: 300ms;
+    width: 100%;
+    height: 45vh;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+  }
+  #navbar {
+    margin-bottom: 80px;
+  }
+  #navbar ul li {
+    content: "";
+    border: none;
+    margin-bottom: 12px;
+    position: static;
+    padding-bottom: 20px;
+  }
+  .container {
+    width: 90%;
+  }
+  /* responsive gambar */
+  #gambar img {
+    width: 300px;
+  }
+}
+@media (min-width: 580px) and (max-width: 1000px) {
+  /* bambar */
+  #gambar img {
+    width: 500px;
+  }
+}
+/* mulai */
